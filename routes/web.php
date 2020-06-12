@@ -16,3 +16,24 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('staff.discipline.index');
 });
+
+Route::get('/student/studentRegistration', function () {
+return view('student/studentRegistration');
+});
+
+Route::get('/student/viewAllStudents', function () {
+return view('student/viewAllStudents');
+});
+
+Route::get('/student/suspendedAndBlacklistedStudents', function () {
+return view('student/suspendedAndBlacklistedStudents');
+});
+
+Route::get('/student/punishedStudents', function () {
+return view('student/punishedStudents');
+});
+
+
+Route::get('/staff/staffDetails', function () {
+return view('staff/staffDetails');
+});

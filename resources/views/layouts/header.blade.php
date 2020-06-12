@@ -13,13 +13,22 @@
         <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
+    {{-- Extrnal CSS file --}}
+    <link rel="stylesheet" href="{{ asset ('css/customStyle.css')}}">
+
 
     <body>
     <header>
     <h3>STUDENT <span>MANAGEMENT</span> SYSTEM</h3>
     </header>
+    <main class="main-body">
 
-@yield('content')
+
+       @yield('content')
+
+       
+    </main>
+
 
 
     </body>

@@ -19,7 +19,7 @@
         <a class="nav-link text-white" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Suspended/Blacklisted Students</a>
         <a class="nav-link text-white" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Punished Students</a>
         <a class="nav-link text-white" id="v-pills-details-tab" data-toggle="pill" href="#v-pills-details" role="tab" aria-controls="v-pills-details" aria-selected="false">View Details</a>
-        <a class="nav-link text-white" href="./logout.php">Logout</a>
+        <a class="nav-link text-white" href="#">Logout</a>
       </div>
     </div>
     <div class="col-10">
@@ -28,14 +28,7 @@
 
         <!--student and parent Registration content div -->
         <div class="tab-pane fade show active" id="v-pills-studentRegistration" role="tabpanel" aria-labelledby="v-pills-home-tab">
-          <?php
-
-        //   if (isset($_SESSION['studentRegistrationSuccess'])) {
-        //     include('./includes/maleziSubScreens/parentRegistrationScreen.php');
-        //   } else {
-        //     include('./includes/maleziSubScreens/studentRegistrationScreen.php');
-        //   }
-          ?>
+          @include('student.studentRegistration')
         </div>
 
         <!--viewing all students content div -->

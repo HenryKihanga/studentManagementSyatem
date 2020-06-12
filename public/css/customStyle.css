@@ -1,0 +1,148 @@
+header {
+    position: fixed;
+    z-index: 10;
+    background: #22242a;
+    /* background: #22242a; */
+    max-width: 100%;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+    border-bottom: #19b3d3 solid 6px;
+
+}
+
+header h3 {
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+header h3 span {
+    color: #1dc4e7;
+}
+
+.main-body{
+    padding-top: 6%;
+}
+
+body {
+    width: 100%;
+    max-width: 100%;
+}
+
+body main {
+    width: 100%;
+    max-width: 98%;
+
+
+}
+
+.sidebar {
+    background: #2f323a;
+    left: 0;
+    border-right: #19b3d3 solid 6px;
+}
+
+.profile .profileImage {
+    width: 140px;
+    height: 140px;
+    border-radius: 120px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.profile h4 {
+    color: #ccc;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.sidebar a {
+    display: block;
+    width: 100%;
+    line-height: 40px;
+    text-decoration: none;
+    border-top: solid 1px white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    transform: 0.5s;
+    transform-style: initial;
+    transition-property: all;
+}
+
+.sidebar a:hover {
+    background: #19b3d3;
+}
+
+.nav a:active {
+    background: #19b3d3 !important;
+    color: #000;
+}
+
+.tab-content {
+    margin-top: 110px;
+}
+
+/* studentDetails */
+
+.profilePictureFrame .profilePicture {
+    width: 220px;
+    height: 300px;
+    border: #19b3d3 solid 2px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* userDetails */
+
+.userPicture {
+    width: 150px;
+    height: 200px;
+    border: #19b3d3 solid 2px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* STUDENT ACADEMIC REPORT */
+.reportHeader {
+    text-align: center;
+    font-weight: 900;
+    justify-content: center;
+
+}
+
+.reportHeader h4 span {
+    text-transform: uppercase;
+    color: #19b3d3;
+}
+
+.reportFooter {
+    text-align: left;
+    font-weight: 900;
+    justify-content: center;
+
+}
+
+.reportFooter h4 span {
+    text-transform: uppercase;
+    color: #19b3d3;
+}
+
+
+/* TABLE DATA CENTERING
+
+.table thead {
+  text-align: center;
+}
+.table td {
+  text-align: center; */
+/* } */
