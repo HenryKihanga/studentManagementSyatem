@@ -14,7 +14,7 @@
         <a class="nav-link text-white"  href="/student/viewAllStudents" >View all Students</a>
         <a class="nav-link text-white"  href="/student/suspendedAndBlacklistedStudents">Suspended/Blacklisted</a>
         <a class="nav-link text-white"  href="/student/punishedStudents" >Punished Students</a>
-        <a class="nav-link text-white"  href="/staff/staffDetails" >View Details</a>
+        <a class="nav-link text-white"  href="/staff/discipline/details" >View Details</a>
         <a class="nav-link text-white"  href="#">Logout</a>
       </div>
     </div>
@@ -46,9 +46,4 @@
     })
   });
 </script>
-
-
-
-
-
 @endsection

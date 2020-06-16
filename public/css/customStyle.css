@@ -43,9 +43,10 @@ body main {
 }
 
 .sidebar {
-    background: #2f323a;
+    background: #272930;
     left: 0;
     border-right: #19b3d3 solid 6px;
+    height: 100%;
 }
 
 .profile .profileImage {

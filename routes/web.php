@@ -34,6 +34,48 @@ return view('student/punishedStudents');
 });
 
 
-Route::get('/staff/staffDetails', function () {
-return view('staff/staffDetails');
+Route::get('/staff/discipline/details', function () {
+return view('staff/discipline/details');
+});
+
+
+
+// routes za academic teacher
+
+Route::Get('/' ,function(){
+
+    return view('class.formOne.index');
+});
+
+Route::get('class/formOne/index', function () {
+ return view('class.formOne.index');
+});
+
+Route::get('class/formTwo/index', function () {
+ return view('class.formTwo.index');
+});
+
+Route::get('class/formThree/index', function () {
+ return view('class.formThree.index');
+});
+
+Route::get('class/formFour/index', function () {
+ return view('class.formFour.index');
+});
+
+Route::get('class/formFive/index', function () {
+ return view('class.formFive.index');
+});
+
+Route::get('class/formSix/index', function () {
+ return view('class.formSix.index');
+});
+
+Route::get('staff/academic/schoolOverAllResults', function () {
+ return view('staff/academic/schoolOverAllResults');
+});
+
+Route::get('staff/academic/details' , function(){
+
+    return view('staff/academic/details');
 });

@@ -1,5 +1,5 @@
 
-@extends('layouts.sideBar')
+@extends('layouts.disciplineSideBar')
 
 @section('tabBody')
 
