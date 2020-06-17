@@ -1,7 +1,3 @@
-
-@extends('layouts.headMasterSideBar')
-@section('tabBody')
-
 <div class="container">
     <div class="card">
         <div class="card-body" style="background:#19B3D3; color:white;">
@@ -13,8 +9,7 @@
                 <div class="form-group row">
                     <label for="staffFirstName" class="col-sm-2 col-form-label">First Name</label>
                     <div class="col-sm-9">
-                        <input type="text" class="form-control" id="staffFirstName" name="staffFirstName"
-                            value="">
+                        <input type="text" class="form-control" id="staffFirstName" name="staffFirstName" value="">
                         <div class="text-danger"></div>
                     </div>
                 </div>
@@ -23,8 +18,7 @@
                 <div class="form-group row">
                     <label for="staffMiddleName" class="col-sm-2 col-form-label">Middle Name</label>
                     <div class="col-sm-9">
-                        <input type="text" class="form-control" id="staffMiddleName" name="staffMiddleName"
-                            value="">
+                        <input type="text" class="form-control" id="staffMiddleName" name="staffMiddleName" value="">
                         <div class="text-danger"></div>
                     </div>
                 </div>
@@ -33,8 +27,7 @@
                 <div class="form-group row">
                     <label for="staffLastName" class="col-sm-2 col-form-label">Last Name</label>
                     <div class="col-sm-9">
-                        <input type="text" class="form-control" id="staffLastName" name="staffLastName"
-                            value="">
+                        <input type="text" class="form-control" id="staffLastName" name="staffLastName" value="">
                         <div class="text-danger"></div>
                     </div>
                 </div>
@@ -43,8 +36,7 @@
                 <div class="form-group row">
                     <label for="staffEmail" class="col-sm-2 col-form-label">Email Address</label>
                     <div class="col-sm-9">
-                        <input type="email" class="form-control" id="staffEmail" name="staffEmail"
-                            value="">
+                        <input type="email" class="form-control" id="staffEmail" name="staffEmail" value="">
                         <div class="text-danger"></div>
                     </div>
                 </div>
@@ -90,8 +82,7 @@
                 <div class="form-group row">
                     <label for="staffBirthDate" class="col-sm-2 col-form-label">Date of Birth</label>
                     <div class="col-sm-9">
-                        <input type="date" class="form-control" id="staffBirthDate" name="staffBirthDate"
-                            value="">
+                        <input type="date" class="form-control" id="staffBirthDate" name="staffBirthDate" value="">
                         <div class="text-danger"></div>
                     </div>
                 </div>
@@ -155,5 +146,3 @@
         </div>
     </div>
 </div>
-
-@endsection

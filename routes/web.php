@@ -84,23 +84,9 @@ Route::get('staff/academic/details' , function(){
 
 Route::get('/' , function(){
 
-    return view('staff/headMaster/viewAllStudents');
+    return view('staff/headMaster/headMasterSideBar');
 });
 
 
 
-Route::get('/staff/headMaster/viewAllStaffs' , function(){
 
-    return view('staff/headMaster/viewAllStaffs');
-});
-
-Route::get('/staff/headMaster/newStaff' , function(){
-
-    return view('staff/headMaster/newStaff');
-});
-
-
-Route::get('/staff/headMaster/details' , function(){
-
-    return view('staff/headMaster/details');
-});

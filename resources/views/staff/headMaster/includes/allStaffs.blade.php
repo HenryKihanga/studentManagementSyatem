@@ -1,9 +1,3 @@
-<!-- VIEWING ALL STUDENTS SCREEN -->
-
-
-@extends('layouts.headMasterSideBar')
-
-@section('tabBody')
 <div class="container-fluid">
     <div class="card">
         <div class="card-body" style="background: #19B3D3; color : #FFFFFF">
@@ -55,4 +49,3 @@
         </div>
     </div>
 </div>
-@endsection
