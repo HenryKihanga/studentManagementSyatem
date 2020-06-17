@@ -1,7 +1,4 @@
 
-@extends('layouts.disciplineSideBar')
-
-@section('tabBody')
 <div class="container-fluid">
 <div class="card">
     <div class="card-body">
@@ -166,7 +163,6 @@
   </div>
 </div>
 
-@endsection
 
 
 
