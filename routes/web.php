@@ -33,10 +33,17 @@ Route::Get('/academic' ,function(){
 
 
 // ROUTES ZA HEADMASTER
-
 Route::get('/headmaster' , function(){
 
-    return view('staff/headMaster/headMasterSideBar');
+    return view('staff.headMaster.headMasterSideBar');
+});
+
+
+// ROUTES ZA MWALIMU WA DARASA
+
+Route::get('/teacher' , function(){
+
+    return view('staff.teacher.teacherSideBar');
 });
 
 
