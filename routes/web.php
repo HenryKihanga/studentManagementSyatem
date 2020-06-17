@@ -13,7 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+
+
+Route::get('/discipline', function () {
     return view('staff.discipline.disciplineSideBar');
 });
 
@@ -22,20 +24,20 @@ Route::get('/', function () {
 
 
 // routes za academic teacher
-// Route::Get('/' ,function(){
+Route::Get('/academic' ,function(){
 
-//     return view('class.formOne.index');
-// });
+    return view('staff.academic.academicSideBar');
+});
 
 
 
 
 // ROUTES ZA HEADMASTER
 
-// Route::get('/' , function(){
+Route::get('/headmaster' , function(){
 
-//     return view('staff/headMaster/headMasterSideBar');
-// });
+    return view('staff/headMaster/headMasterSideBar');
+});
 
 
 

@@ -22,7 +22,7 @@
                     role="tab" aria-controls="v-pills-settings" aria-selected="false">Punished Students</a>
                 <a class="nav-link text-white" id="v-pills-details-tab" data-toggle="pill" href="#v-pills-details"
                     role="tab" aria-controls="v-pills-details" aria-selected="false">View Details</a>
-                <a class="nav-link text-white" href="./logout.php">Logout</a>
+                <a class="nav-link text-white" href="">Logout</a>
             </div>
         </div>
         <div class="col-10">

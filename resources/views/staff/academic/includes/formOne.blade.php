@@ -11,7 +11,7 @@
             </div>
             <div class="card-body" style="margin-bottom:40px;">
                 <!--navuta vuta page ya matokeo -->
-                @include('includes.academicReport')
+                @include('staff.academic.includes.academicReport')
             </div>
         </div>
     </div>
