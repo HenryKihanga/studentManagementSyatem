@@ -41,7 +41,6 @@ return view('staff/discipline/details');
 
 
 // routes za academic teacher
-
 Route::Get('/' ,function(){
 
     return view('class.formOne.index');
@@ -78,4 +77,30 @@ Route::get('staff/academic/schoolOverAllResults', function () {
 Route::get('staff/academic/details' , function(){
 
     return view('staff/academic/details');
+});
+
+
+// ROUTES ZA HEADMASTER
+
+Route::get('/' , function(){
+
+    return view('staff/headMaster/viewAllStudents');
+});
+
+
+
+Route::get('/staff/headMaster/viewAllStaffs' , function(){
+
+    return view('staff/headMaster/viewAllStaffs');
+});
+
+Route::get('/staff/headMaster/newStaff' , function(){
+
+    return view('staff/headMaster/newStaff');
+});
+
+
+Route::get('/staff/headMaster/details' , function(){
+
+    return view('staff/headMaster/details');
 });
